@@ -1,0 +1,373 @@
+body{
+  background:rgb(205, 133, 133);
+}
+#main{
+    width: 1400px;
+    height:100%;
+    margin: 0 auto;
+    background:rgb(229, 214, 229);
+    margin-top:-20px;
+}
+#dau{
+    width: 1400px;
+    height:200px;
+    background:black;
+}
+.logo{
+    width: 200px;height: 200px;
+    background:rgb(205, 133, 133);
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.slideshow{
+    width: 1200px;height:400px;
+    margin: 0 auto;
+    margin-top:30px;
+    background:blue;
+    border-radius: 50px 50px 50px 50px; 
+}
+.slideshow img{
+  border-radius: 20px 20px 20px 20px; 
+}
+.slideshow:hover{
+  transform: scale(1.01);
+}
+
+.chan{
+  height:50px;
+  width:1400px;
+  margin-top:30px;
+  background-color: black;
+  text-decoration: none;
+}
+.chan b{
+  color:white;
+  font-size: 40px;
+  margin: 0 auto;
+  text-decoration: none;
+  margin-left: 590px;
+}
+
+
+#card{
+    width: 1000px;height:1000px;
+    background:rgb(131, 131, 102);
+    margin: 0 auto;
+    margin-top:50px;
+}
+.card1{
+    width:400px;
+    height:400px;
+    background: rgb(158, 212, 158);
+    float: left;
+    margin:50px 50px 50px 50px;
+    border-radius: 25px 25px 25px 25px;
+}
+.card1 img{
+  width: 100%;
+  height: 85%;
+  border-radius: 25px 25px 25px 25px;
+}
+#card b{
+  font-size: 30px;
+  color: black;
+  margin-left: 12px;
+  float: left;
+}
+#card button{
+  float: right;
+  height:40px;
+  width: 100px;
+  margin-right: 20px;
+  background-color: aquamarine;
+  border-radius: 10px 10px 10px 10px;
+}
+.card1 button:hover{
+  transform: scale(1.1);
+}
+.card1 img:hover{
+  transform: scale(1.03);
+}
+
+#cuoi{
+    width:1400px;
+    height:300px;
+    background: black;
+    margin-bottom: -20px;
+}
+#nav > li > a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17pt;
+    margin-left: 30px;
+    margin-top: 65px;
+  }
+  #nav li a {
+    text-decoration: none;
+    display: block;
+  }
+  
+  #nav > li {
+    line-height: 46px;
+    display: inline-block;
+    position: relative;
+    padding: 0px 20px;
+  }
+  
+  #nav li:hover {
+    transform: scale(1.1);
+  }
+  
+  .login {
+    float: right;
+    line-height: 20px;
+    margin-top:-65px;
+    margin-right:20px ;
+  }
+  .login input {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 23pt;
+    font-weight: bold;
+    background-color: rgb(8, 60, 158);
+    cursor: pointer;
+  }
+  .login input:hover {
+    background-color: yellow;
+  }
+  .login:hover {
+    transform: scale(1.1);
+  }
+  #cuoi1{
+    width:400px;
+    height:300px;
+    background: black  ;
+    float: left;
+    margin-left:20px;
+  }
+
+  #cuoi2{
+    width:400px;
+    height:300px;
+    background: black  ;
+    float: left;
+    margin-left: 80px;
+  }
+  #cuoi3{
+    width:400px;
+    height:300px;
+    background: black  ;
+    float: right;
+    margin-right:20px;
+  }
+  #cuoi1 b{
+    font-size:50px;
+    margin-left: 50px;
+    color:red;
+  }
+  #cuoi1 p{
+    font-size:25px;
+    color: white;
+  }
+  #cuoi2 b{
+    font-size:50px;
+    margin-left: 50px;
+    color:red;
+  }
+  #cuoi2 p{
+    font-size:25px;
+    color: white;
+  }
+  #cuoi3 b{
+    font-size:50px;
+    margin-left: 50px;
+    color:red;
+    text-decoration: none
+  }
+  #cuoi3 img{
+    width: 20%;
+    margin:0px 0px 50px 50px;
+  }
+  #khung{
+    width: 1400;
+    height:900px;
+    background: rgb(114, 149, 179);
+  }
+  #khung1{
+    width:350px;
+    height:350px;
+    background: rgb(158, 212, 158);
+    float: left;
+    margin:50px 50px 50px 65px;
+    border-radius: 25px 25px 25px 25px;
+  }
+  #khung1 img{
+    width: 100%;
+    height: 85%;
+    border-radius: 25px 25px 25px 25px;
+  }
+  #khung1 b{
+    font-size: 30px;
+    color: black;
+    margin-left: 12px;
+    float: left;
+  }
+  #khung1 button{
+    float: right;
+    height:40px;
+    width: 100px;
+    margin-right: 20px;
+    background-color: aquamarine;
+    border-radius: 10px 10px 10px 10px; 
+  }
+  #khung1 button:hover{
+    transform: scale(1.1);
+  }
+  #khung1 img:hover{
+    transform: scale(1.03);
+  }
+  #khunggioithieu{
+    width: 1400px;
+    height:600px;
+  }
+  #anhz{
+    width:600px;
+    height:450px;
+    background-color: white;
+    margin: 50px 0px 50px 50px;
+  }
+  #anhz img{
+    width: 100%;
+  }
+  #gioithieu1{
+    width: 600px;
+    height:150px;
+    float: left;
+    margin-top: -519px;
+    margin-left: 700px;
+    background:rgb(229, 214, 229);
+  }
+  #gioithieu1 b{
+    font-size: 35px;
+    color:black;
+  }
+  #gioithieu1 p{
+    font-size:25px;
+    color:black;
+  }
+  #chanz{
+    width: 600px;
+    height:10px;
+    float: left;
+    margin-top: -350px;
+    margin-left: 700px;
+    background: red;
+    border-radius: 10px 10px 10px 10px; 
+  }
+  #sp{
+    width: 600px;
+    height:250px;
+    float: left;
+    margin-top: -320px;
+    margin-left: 700px;
+    background:rgb(229, 214, 229);
+  }
+  #sp b{ 
+    font-size: 35px;
+    color:black;
+  }
+  #sp p{
+    font-size:25px;
+    color:black;
+  }
+  #khung4{ 
+    width: 1400px;
+    height:700px;
+    background:white;
+  }
+  #lh1{ 
+    width: 500px;
+    height:600px;
+    background:while;
+    margin:90px 0px 0px 70px;
+    float: left;
+  }
+  #lh2{ 
+    width: 700px;
+    height:600px;
+    background:white;
+    float: right;
+    margin:50px 30px 0px 70px;
+  }
+  #lh1 b{ 
+    font-size:40px;
+    text-decoration: none;
+    color:red;
+  }
+  #lh1 p{ 
+    font-size:30px;
+    text-decoration: none;
+    color:black;
+    text-decoration: none;
+  }
+
+  .form {
+    text-align: center;
+    margin-top: 40px;
+    max-width:420px;
+    margin:50px auto;
+    }
+    #form1 input[type=text] {
+    color:black;
+    font-family: sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+    }
+    
+    #form1 #fcontent {
+    height: 200px;
+    }
+    #form1 input[type=submit] {
+    color:white;
+    font-family: sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: #CC6666;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+    }
+    #form1 input[type="submit"]:hover {
+    background:#CC4949;
+    }
+
+    #gui{
+      width: 1400px;
+      height:100px;
+      background:#c2b7b7;
+    }
+    #gui b{
+      margin-left:170px;
+      font-size:30px;
+    }
